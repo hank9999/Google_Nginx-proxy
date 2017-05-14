@@ -6,4 +6,5 @@
 cd /root && wget -c https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/install.sh && sh install.sh
 
 然后会提示选择ubuntu或者centos，请根据自己的服务器选择
+
 脚本编写参考https://liyuans.com/archives/arukas-build-google-mirror.html
