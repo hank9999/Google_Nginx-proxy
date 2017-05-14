@@ -38,7 +38,7 @@ cd nginx-1.11.13
 make
 make install
 cd /root
-wget "http://hankmc.top/sh/google/nginx.conf"
+wget "https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/nginx.conf"
 rm -rf /opt/nginx-1.11.13/conf/nginx.conf
 cp /root/nginx.conf /opt/nginx-1.11.13/conf/nginx.conf
 rm -rf nginx-1.11.13.tar.gz pcre-8.39.tar.gz openssl-1.1.0e.tar.gz zlib-1.2.11.tar.gz
@@ -73,7 +73,7 @@ cd nginx-1.11.13
 make
 make install
 cd /root
-wget "http://hankmc.top/sh/google/nginx.conf"
+wget https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/nginx.conf
 rm -rf /opt/nginx-1.11.13/conf/nginx.conf
 cp /root/nginx.conf /opt/nginx-1.11.13/conf/nginx.conf
 rm -rf nginx-1.11.13.tar.gz pcre-8.39.tar.gz openssl-1.1.0e.tar.gz zlib-1.2.11.tar.gz
