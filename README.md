@@ -11,4 +11,5 @@ cd /root && wget -c https://raw.githubusercontent.com/hank9999/Google_Nginx-prox
 
 然后会提示选择ubuntu或者centos，请根据自己的服务器选择
 
+在我的博客上的说明:https://hankmc.top/38/
 脚本编写参考https://liyuans.com/archives/arukas-build-google-mirror.html
