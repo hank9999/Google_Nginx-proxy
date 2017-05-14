@@ -48,6 +48,7 @@ rm -rf /root/nginx-1.11.13 /root/pcre-8.40 /root/openssl-1.1.0e /root/zlib-1.2.1
 rm -rf /root/nginx.conf
 /opt/nginx-1.11.13/sbin/nginx
 
+echo "installation is complete"
         ;;
         2)
         echo "Your country is Centos."
@@ -83,8 +84,10 @@ rm -rf /root/nginx-1.11.13 /root/pcre-8.40 /root/openssl-1.1.0e /root/zlib-1.2.1
 rm -rf /root/nginx.conf
 /opt/nginx-1.11.13/sbin/nginx
 
+echo "installation is complete"
         ;;
         *)
         echo "Please choose a right item."
+        
+        echo "installation isn't complete"
 esac
-echo "installation is complete"
