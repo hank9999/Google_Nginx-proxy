@@ -43,8 +43,8 @@ cd /root
 wget "https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/nginx.conf"
 rm -rf /opt/nginx-1.11.13/conf/nginx.conf
 cp /root/nginx.conf /opt/nginx-1.11.13/conf/nginx.conf
-rm -rf nginx-1.11.13.tar.gz pcre-8.39.tar.gz openssl-1.1.0e.tar.gz zlib-1.2.11.tar.gz
-rm -rf /root/nginx-1.11.13 /root/pcre-8.39 /root/openssl-1.1.0e /root/zlib-1.2.11
+rm -rf nginx-1.11.13.tar.gz pcre-8.40.tar.gz openssl-1.1.0e.tar.gz zlib-1.2.11.tar.gz
+rm -rf /root/nginx-1.11.13 /root/pcre-8.40 /root/openssl-1.1.0e /root/zlib-1.2.11
 rm -rf /root/nginx.conf
 /opt/nginx-1.11.13/sbin/nginx
 
@@ -78,8 +78,8 @@ cd /root
 wget https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/nginx.conf
 rm -rf /opt/nginx-1.11.13/conf/nginx.conf
 cp /root/nginx.conf /opt/nginx-1.11.13/conf/nginx.conf
-rm -rf nginx-1.11.13.tar.gz pcre-8.39.tar.gz openssl-1.1.0e.tar.gz zlib-1.2.11.tar.gz
-rm -rf /root/nginx-1.11.13 /root/pcre-8.39 /root/openssl-1.1.0e /root/zlib-1.2.11
+rm -rf nginx-1.11.13.tar.gz pcre-8.40.tar.gz openssl-1.1.0e.tar.gz zlib-1.2.11.tar.gz
+rm -rf /root/nginx-1.11.13 /root/pcre-8.40 /root/openssl-1.1.0e /root/zlib-1.2.11
 rm -rf /root/nginx.conf
 /opt/nginx-1.11.13/sbin/nginx
 
