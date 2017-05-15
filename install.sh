@@ -9,7 +9,7 @@ echo "|                     my blog is https://hankmc.top                      |
 echo "+------------------------------------------------------------------------+"
 echo "|                     This is https://hankmc.top/38/                     |"
 echo "+------------------------------------------------------------------------+"
-echo "1. Ubuntu"
+echo "1. Ubuntu/Debian"
 echo "2. Centos"
 read -p "Please choose your country: " i
 case "$i" in
