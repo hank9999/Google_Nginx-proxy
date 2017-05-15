@@ -14,7 +14,7 @@ echo "2. Centos"
 read -p "Please choose your country: " i
 case "$i" in
         1)
-        echo "Your country is Ubuntu."
+        echo "Your country is Ubuntu/Debian."
 apt-get update
 apt-get install build-essential git gcc g++ make -y
 cd /root
@@ -37,8 +37,7 @@ cd nginx-1.11.13
   --with-http_ssl_module \
   --add-module=../ngx_http_google_filter_module \
   --add-module=../ngx_http_substitutions_filter_module
-make
-make install
+make && make install
 cd /root
 wget "https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/nginx.conf"
 rm -rf /opt/nginx-1.11.13/conf/nginx.conf
@@ -73,8 +72,7 @@ cd nginx-1.11.13
   --with-http_ssl_module \
   --add-module=/root/ngx_http_google_filter_module \
   --add-module=/root/ngx_http_substitutions_filter_module
-make
-make install
+make && make install
 cd /root
 wget https://raw.githubusercontent.com/hank9999/Google_Nginx-proxy/master/nginx.conf
 rm -rf /opt/nginx-1.11.13/conf/nginx.conf
