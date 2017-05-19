@@ -9,7 +9,7 @@ echo "|                install "Google_Nginx-proxy" on Linux                   |
 echo "+------------------------------------------------------------------------+"
 echo "|                     my blog is https://hankmc.top                      |"
 echo "+------------------------------------------------------------------------+"
-echo "|                     This is https://hankmc.top/38/                     |"
+echo "|                     This is https://hankmc.top/42/                     |"
 echo "+------------------------------------------------------------------------+"
 apt-get update
 apt-get install build-essential git gcc g++ make -y
@@ -56,7 +56,7 @@ echo "|                install "Google_Nginx-proxy" on Linux                   |
 echo "+------------------------------------------------------------------------+"
 echo "|                     my blog is https://hankmc.top                      |"
 echo "+------------------------------------------------------------------------+"
-echo "|                     This is https://hankmc.top/38/                     |"
+echo "|                     This is https://hankmc.top/42/                     |"
 echo "+------------------------------------------------------------------------+"
 apt-get update
 apt-get install build-essential git gcc g++ make -y
@@ -101,7 +101,7 @@ echo "|                install "Google_Nginx-proxy" on Linux                   |
 echo "+------------------------------------------------------------------------+"
 echo "|                     my blog is https://hankmc.top                      |"
 echo "+------------------------------------------------------------------------+"
-echo "|                     This is https://hankmc.top/38/                     |"
+echo "|                     This is https://hankmc.top/42/                     |"
 echo "+------------------------------------------------------------------------+"
 yum install -y gcc gcc-c++ perl make git
 cd /root
