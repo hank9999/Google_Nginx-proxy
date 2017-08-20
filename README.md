@@ -13,7 +13,7 @@ git@osc链接https://git.oschina.net/hank9999/Google_Nginx-proxy
 
 Centos安装命令yum install wget sudo -y
 
-cd /root && wget -c http://git.hankmc.top:88/hank9999/Google_Nginx-proxy/raw/master/install.sh && sudo sh install.sh
+cd /root && wget -c https://github.com/hank9999/Google_Nginx-proxy/raw/master/install.sh && sudo sh install.sh
 
 然后会根据您的系统自动安装.
 
