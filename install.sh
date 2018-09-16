@@ -93,7 +93,8 @@ rm -rf /root/nginx.conf
 echo "installation is complete"
 	exit;
 fi
-
+isCentos=`cat /etc/redhat-release|grep CentOS`
+if [ "$isCentos" != "" ];then
 echo "+------------------------------------------------------------------------+"
 echo "|                           Google_Nginx-proxy                           |"
 echo "+------------------------------------------------------------------------+"
@@ -135,3 +136,6 @@ rm -rf /root/nginx.conf
 /opt/nginx-1.11.13/sbin/nginx
 
 echo "installation is complete"
+	exit;
+fi
+echo "Sorry,Your OS have not been tested!"
